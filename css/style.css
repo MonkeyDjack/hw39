@@ -3,7 +3,7 @@ font-family:"LatoRegular", Arial, sans-serif;
 font-size: 16px; 
 line-height: 1.6; 
 color: #fff; 
-background: url('../upload/astoria--bg.jpg') 0 0 no-repeat; 
+background: #75b4aa url('../upload/astoria--bg.jpg') 0 0 no-repeat; 
 }
 h3,
 h2{
@@ -12,15 +12,16 @@ h2{
 .container{
 	max-width: 1162px;
 	min-width: 320px;
-	margin: 50px auto 0 auto;
+	margin: 0 auto;
 }
 header{
+	margin-top: 50px;
 	overflow: hidden;
 }
 .logo{
 	float:left;
 	margin-left: 48px;
-	margin-top: 15px;
+	margin-top: 25px;
 }
 .menu{
 	list-style: none;
@@ -30,11 +31,12 @@ header{
 .menu li{
 	display: inline-block;
 	padding:9px 17px 10px 13px;
-	margin-left: 23px;
+	margin-left: 22px;
 	border-radius: 4px;
 }
 .menu li:hover{
 	background: #82c8bd;
+	-webkit-transition:  0.3s ease-out;
 	transition:  0.3s ease-out;
 }
 .menu li a{
@@ -44,10 +46,14 @@ header{
 	line-height: 60px;
 }
 .contact-block{
-	margin-top: 30px;
+	margin-top: 90px;
+	margin-bottom: 80px;
+	overflow: hidden;
 }
 .contact-block_header{
+	font-weight: normal;
 	text-align: center;
+	margin-bottom: 113px;
 }
 .contact-block_header h2{
 	font-size: 60px;
@@ -57,8 +63,14 @@ header{
 .contact-block_header p{
 	font-size: 14px;
 	line-height: 24px;
+	    margin-top: 0px;
+    margin-left: 60px;
+    margin-right: 10px
 }
-
+.contact_adress{
+	float: left;
+	margin-left: 56px;
+}
 .contact_adress_txt h3{
 	font-size: 30px;
 	line-height: 30px;
@@ -91,13 +103,14 @@ header{
 .adress_txt_contacts--tags{
 	color:#d0efea;
 	display: inline-block;
+	padding-right: 20px;
 }
 .txt_contacts--padd{
 	padding-right: 67px;
 }
 .contact_adress_txt{
 	float: left;
-	width: 202px;
+	width: 200px;
 }
 .contact_adress_map{
 		float: left;
@@ -107,4 +120,111 @@ header{
 .contact_adress_map .map{
 	width: 261px;
 	height: 220px;
+}
+.form-block{
+	float:right;
+	width: 540px;
+	margin-right: 14px;
+}
+.form_header{
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: normal;
+	margin: 0;
+}
+.form_form-wrapper{
+	margin-top: 27px;
+	overflow: hidden;
+}
+.form-row--name{
+	float: left;
+}
+.form-row--email{
+	float: right;
+}
+.form-row--textarea{
+display:block;
+}
+.form_input--name,
+.form_input--email{
+	width: 260px;
+	height: 40px;
+	font-size:16px;
+	padding-left: 20px;
+	border: 0;
+	border-radius: 5px;
+	background: #68a097;
+}
+input[type="text"]::-webkit-input-placeholder {
+    color: #82c8bd;
+   } 
+   input[type="text"]::-moz-placeholder {
+    color: #82c8bd;
+   }
+   input[type="email"]::-webkit-input-placeholder {
+    color: #82c8bd;
+   } 
+   input[type="email"]::-moz-placeholder {
+    color: #82c8bd;
+}
+textarea::-webkit-input-placeholder {
+    color: #82c8bd;
+   } 
+   textarea::-moz-placeholder {
+    color: #82c8bd;
+   }
+.form_textarea{
+	    padding-top: 14px;
+    padding-left: 19px;
+	font-size: 16px;
+	margin-top: 20px;
+	border: 0;
+	border-radius: 5px;
+	background: #68a097;
+	width: 100%;
+	height: 160px;
+	margin-bottom: 21px;
+}
+.form_input--name:focus,
+.form_input--email:focus,
+.form_textarea:focus{
+	background: #fff;
+}
+.form-block_btn{
+	font-family: 'Lato', sans-serif;
+	font-size: 26px;
+	font-weight: bold;
+	width: 260px;
+	border: 0;
+	color:#fff;
+	height: 50px;
+	text-transform: uppercase;
+	background: #df5c64;
+	margin-left: 144px;
+	border-radius:5px;
+	background: rgb(223,92,100);
+	
+}
+.footer{
+	background: #68a097;
+}
+.footer_links_wrapper{
+	display: flex;
+	flex-flow: row wrap;
+	width: 360px;
+	margin: 0 auto;
+	padding-top: 41px;
+	padding-bottom: 51px;
+    padding-bottom: 5px;
+}
+.links{
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	background: #82c8bd;
+	border-radius: 50%;
+	margin-right: 40px;
+}
+.links:last-child{
+	margin-right: 0;
 }
