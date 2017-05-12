@@ -1,0 +1,110 @@
+body { 
+font-family:"LatoRegular", Arial, sans-serif; 
+font-size: 16px; 
+line-height: 1.6; 
+color: #fff; 
+background: url('../upload/astoria--bg.jpg') 0 0 no-repeat; 
+}
+h3,
+h2{
+	font-family: "LatoLight";
+}
+.container{
+	max-width: 1162px;
+	min-width: 320px;
+	margin: 50px auto 0 auto;
+}
+header{
+	overflow: hidden;
+}
+.logo{
+	float:left;
+	margin-left: 48px;
+	margin-top: 15px;
+}
+.menu{
+	list-style: none;
+	float:right;
+	margin: 0;
+}
+.menu li{
+	display: inline-block;
+	padding:9px 17px 10px 13px;
+	margin-left: 23px;
+	border-radius: 4px;
+}
+.menu li:hover{
+	background: #82c8bd;
+	transition:  0.3s ease-out;
+}
+.menu li a{
+	color:#fff;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 60px;
+}
+.contact-block{
+	margin-top: 30px;
+}
+.contact-block_header{
+	text-align: center;
+}
+.contact-block_header h2{
+	font-size: 60px;
+	text-transform: uppercase;
+	margin: 0;
+}
+.contact-block_header p{
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.contact_adress_txt h3{
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: normal;
+	margin: 0;
+}
+.contact_adress_txt p{
+	line-height: 21px;
+}
+.adress_txt--color{
+	color:#c0dfda;
+	font-size: 20px;
+	margin: 23px 0 9px 0;
+}
+.adress_txt--adress p{
+	margin: 0;
+}
+.adress_txt_contacts{
+	line-height: 21px;
+	margin-top: 69px
+}
+.adress_txt_contacts p{
+	margin: 0;
+	display: inline-block;
+	float: right;
+}
+.adress_txt_contacts a{
+	color:#fff;
+}
+.adress_txt_contacts--tags{
+	color:#d0efea;
+	display: inline-block;
+}
+.txt_contacts--padd{
+	padding-right: 67px;
+}
+.contact_adress_txt{
+	float: left;
+	width: 202px;
+}
+.contact_adress_map{
+		float: left;
+		margin-top: 56px;
+    margin-left: 40px;
+}
+.contact_adress_map .map{
+	width: 261px;
+	height: 220px;
+}
