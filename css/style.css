@@ -1,4 +1,4 @@
-body { 
+body {
 font-family:"LatoRegular", Arial, sans-serif; 
 font-size: 16px; 
 line-height: 1.6; 
@@ -27,6 +27,59 @@ header{
 	list-style: none;
 	float:right;
 	margin: 0;
+}
+.menu-btn {
+    width: 68px;
+    height: 70px;
+    float: right;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    display: none;
+    margin-right: 27px;
+}
+.menu-btn span {
+    width: 18px;
+    height: 2px;
+    background: #68a097;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -1px 0 0 -9px;
+}
+.menu-btn.is-active span {
+    background: transparent;
+}
+.menu-btn span::before,.menu-btn span::after{
+	content: "";
+	width: 18px;
+	height: 2px;
+	background: #68a097;
+	position: absolute;
+	left: 0;
+	-webkit-transition: -webkit-transform 1s;
+	transition: -webkit-transform 1s;
+	transition: transform 1s;
+	transition: transform 1s, -webkit-transform 1s;
+}
+.menu-btn span::before{
+	top: -5px;
+}
+.menu-btn span::after{
+	bottom: -5px;
+}
+.menu-btn.is-active span{
+	background: transparent;
+}
+.menu-btn.is-active span::before{
+	-webkit-transform: rotate(45deg);
+	        transform: rotate(45deg);
+	top: 0;
+} 
+.menu-btn.is-active span::after{
+	-webkit-transform: rotate(-45deg);
+	        transform: rotate(-45deg);
+	bottom: 0;
 }
 .menu li{
 	display: inline-block;
@@ -70,6 +123,7 @@ header{
 .contact_adress{
 	float: left;
 	margin-left: 56px;
+	overflow: hidden;
 }
 .contact_adress_txt h3{
 	font-size: 30px;

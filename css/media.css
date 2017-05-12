@@ -1,0 +1,152 @@
+@media screen and (max-width:1128px){
+	.contact_adress{
+		float: none;
+		margin-left:0;
+		width: 540px;
+		margin: 0 auto;	
+	}
+	.contact_adress_map .map{
+	width: 100%;
+	height: 300px;
+	}
+	.contact_adress_map{
+		float: left;
+		margin: 0 0 0 40px;
+	}
+	.form-block{
+	float:none;
+	width: 540px;
+	display: block;
+	margin: 30px auto 0 auto;
+	}
+	.contact-block_header p{
+	width:90%;
+}
+}
+@media screen and (max-width:810px){
+	.menu-btn {
+    display: block !important;
+}
+.menu {
+	position: absolute;
+	top:100px;
+	right:0px;
+	display: none;
+    margin: 0 !important;
+    padding: 3px 15px !important;
+    list-style: none;
+
+}
+.menu li{
+	margin-left:4px;
+		display: block ;
+		padding: 5px !important;
+	}
+.main-nav ul{
+		margin: 0 !important;
+		padding: 3px 15px !important;
+		list-style: none;
+	}
+	.menu li a{
+		display: block ;
+		text-decoration: none;
+		line-height: 28px;
+	}
+	.contact-block{
+		margin-top: 172px;
+		transition:  0.3s ease-out;
+	}
+}
+@media screen and (max-width:564px){
+.form_input--name,
+.form_textarea,
+.form_input--email{
+	width: 100%;
+}
+.form-row--name{
+	float: none;
+	margin-bottom:20px;
+}
+.form-row--email{
+	float: none;
+}
+}
+@media screen and (max-width:560px){
+	.contact_adress_txt{
+		float:none;
+		margin: 0;
+		text-align:left;
+	}
+	.contact_adress_map{
+		float: none;
+		width: 90%;
+		margin: 40px 0 0 0;
+	}
+}
+@media screen and (max-width:540px){
+	.form-block {
+    float: none;
+    width: 100%;
+    display: block;
+    margin: 30px auto 0 auto;
+}
+.contact_adress{
+	width: 100%;
+}
+}
+@media screen and (max-width:440px){
+	.logo{
+		margin-left: 0;
+	}
+	.menu-btn {
+    width: 68px;
+    height: 70px;
+    float: right;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    display: none;
+    margin-right: 0;
+}
+	.contact-block_header h2{
+	font-size: 30px;
+	text-transform: uppercase;
+	margin: 0;
+}
+.footer_links_wrapper{
+	width: 320px;
+	margin: 0 auto;
+}
+.links{
+	margin: 3px;
+}
+.contact-block_header p{
+	font-size: 12px;
+	line-height: 24px;
+	    margin-top: 0px;
+    margin-left: 0;
+    margin-right: 0
+}
+.form-block_btn{
+	font-family: 'Lato', sans-serif;
+	font-size: 26px;
+	font-weight: bold;
+	width: 260px;
+	border: 0;
+	color:#fff;
+	height: 50px;
+	float: left;
+	text-transform: uppercase;
+	background: #df5c64;
+	margin-left: 0;
+	border-radius:5px;
+	background: rgb(223,92,100);
+	
+}
+.form_input--name,
+.form_textarea,
+.form_input--email{
+	width: 320px;
+}
+}
+

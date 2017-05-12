@@ -6,15 +6,16 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="fonts/fonts.css">
-	<link rel="stylesheet" href="css/media.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" href="css/media.css">
 	<title>Document</title>
 </head>
 <body>
 	<div class="container">
 		<header>
 			<img src="img/logo.png" class="logo" alt="">
-			<ul class="menu">
+			<div id="menu-btn" class="menu-btn not-active"><span></span></div>
+			<ul class="menu" id="menu">
 				<li><a href="#">Home</a></li>
 				<li><a href="#">Services</a></li>
 				<li><a href="#">About</a></li>
@@ -75,5 +76,7 @@ src="https://www.google.com/maps/embed/v1/view?zoom=12&center=26.0112,-80.1495&k
 		</div>
 	</div>
 	</footer>
+	<script src='vendor/jq/jquery-3.2.0.min.js'></script>
+	<script src="js/core.js"></script>
 </body>
 </html>
