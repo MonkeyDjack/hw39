@@ -21,6 +21,8 @@
 	}
 	.contact-block_header p{
 	width:90%;
+	margin: 0;
+	text-align: center;
 }
 }
 @media screen and (max-width:810px){
@@ -148,5 +150,25 @@
 .form_input--email{
 	width: 320px;
 }
+}
+.facebook{
+	background-image: url('../img/facebook.png');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+.twitter{
+	background-image: url(../img/twitter.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+.google{
+	background-image: url(../img/g+.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+.in{
+	background-image: url(../img/in.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
 }
 

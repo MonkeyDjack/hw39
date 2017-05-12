@@ -10,5 +10,6 @@ $(document).ready(function(){
 				},600)			
 			}		
 		});
+	$(".form_input--email").inputmask("{1,20}@{1,20}.{3}[.{2}]")
 
 });
